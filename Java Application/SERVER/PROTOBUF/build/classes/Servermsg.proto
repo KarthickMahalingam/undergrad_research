@@ -1,0 +1,6 @@
+option java_package = "com.example.tutorial";
+option java_outer_classname = "Servermsg";
+message Servermsgs{
+required string msg=1;
+repeated Servermsgs contact=2;
+}
