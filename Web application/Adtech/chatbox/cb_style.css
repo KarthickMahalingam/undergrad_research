@@ -1,0 +1,88 @@
+﻿#signInForm, #messageForm {
+	margin:0px;
+	margin-bottom:1px;
+}
+#userName {
+	width: 150px;
+	height: 22px;
+	border: 1px teal solid;
+	float:left;
+}
+#signInButt {
+	width: 60px;
+	height: inherit;
+	background-color: #0ca0ce;
+	border-right-style: inset;
+}	
+#signInName{
+	font-family:Tahoma;
+	font-size:12px;
+	color:orange;
+}
+#chatBox {
+	font-family:tahoma;
+	font-size:12px;
+	color:black;
+	border: 1px teal solid;
+	height: 225px;
+	width: 400px;
+	overflow: scroll;
+	float:left;
+
+}
+#usersOnLine{
+	font-family:tahoma;
+	font-size:14;
+	color:orange;
+	border:1px teal solid;
+	width:150px;
+	height:225px;
+	overflow:scroll;
+	margin-left:1px;
+	border-bottom-style: groove;
+}
+#message {
+	width: 350px;
+	height: 22px;
+	border: 1px teal solid;
+	float:left;
+	margin-top:1px;
+}
+#send {
+	width: 50px;
+	height: 22px;
+	float:left;
+	margin:1px;
+	background-color: #0CA0CE;
+}
+#serverRes{
+	width:150px;
+	height:22px;
+	border: 1px teal solid;
+	float:left;
+	margin:1px;
+}
+.rounded {
+    border-radius: 4px;
+}
+.chat {
+    background: url('../img/chat_line_bg.jpg') repeat-x scroll 0% 0% #D5D5D5;
+    min-height: 24px;
+    border: 1px solid #FFF;
+    padding: 8px 6px 4px 37px;
+    position: relative;
+    margin: 0px 10px 10px 0px;
+}
+
+.jspPane {
+    position: absolute;
+}
+
+.chat {
+    background: url('../img/chat_line_bg.jpg') repeat-x scroll 0% 0% #D5D5D5;
+    min-height: 24px;
+    border: 1px solid #FFF;
+    padding: 8px 6px 4px 37px;
+    position: relative;
+    margin: 0px 10px 10px 0px;
+}
